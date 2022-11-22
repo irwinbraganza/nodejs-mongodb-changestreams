@@ -1,4 +1,4 @@
-# react-mongodb-changestreams
+# nodejs-mongodb-changestreams
 
 node.js with mongo change streams
 
