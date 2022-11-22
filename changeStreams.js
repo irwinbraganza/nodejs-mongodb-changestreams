@@ -1,13 +1,13 @@
 const { MongoClient } = require("mongodb");
 const stream = require("stream");
+require("dotenv").config();
 
 async function main() {
   /**
    * Connection URI. Update <username>, <password>, and <your-cluster-url> to reflect your cluster.
    * See https://docs.mongodb.com/drivers/node/ for more details
    */
-  const uri =
-    "mongodb+srv://mongodb-changestreams-demo:BRqremzp_R5*j7t@cluster0.hcmegqx.mongodb.net/?retryWrites=true&w=majority";
+  const uri = process.env.MONGODB_URI;
 
   /**
    * The Mongo Client you will use to interact with your database

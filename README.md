@@ -4,6 +4,12 @@ node.js with mongo change streams
 
 credits: Lauren Schaefer | https://www.mongodb.com/developer/languages/javascript/nodejs-change-streams-triggers/
 
+# pre
+
+- setup mongo cluster with sample data. ref: https://www.mongodb.com/docs/charts/tutorial/order-data/prerequisites-setup/#load-the-sample-data
+
+- create .env with MONGODB_URI env having connection string from the cluster created above
+
 # install
 
 ```
