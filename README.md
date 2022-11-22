@@ -1,2 +1,5 @@
 # react-mongodb-changestreams
-React App with mongo change streams
+
+node.js with mongo change streams
+
+credits: Lauren Schaefer | https://www.mongodb.com/developer/languages/javascript/nodejs-change-streams-triggers/
