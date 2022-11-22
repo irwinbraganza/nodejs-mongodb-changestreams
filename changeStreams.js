@@ -131,7 +131,7 @@ async function monitorListingsUsingHasNext(
       console.log(await changeStream.next());
     }
   } catch (error) {
-    if (changeStream.isClosed()) {
+    if (changeStream.closed()) {
       console.log(
         "The change stream is closed. Will not wait on any more changes."
       );
